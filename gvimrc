@@ -14,21 +14,33 @@ endif
 
 set number
 set ru
+set ruler
 
 " indent related
 set tabstop=4
+set softtabstop=4
 set shiftwidth=4
 set expandtab
 set smarttab
 set autoindent
 
+" set foldenable
+" set foldmethod=syntax
+" set foldcolumn=0
+" setlocal foldlevel=1
+" set foldclose=all
+"
+
 " set spell
 
 " Switch on search pattern highlighting.
 set hlsearch
+" set cursorline
+" hi cursorline guifg=black guibg=green
 
 set encoding=utf-8
-
+set nobackup
+set autochdir
 
 set ch=2		" Make command line two lines high
 
@@ -79,12 +91,13 @@ let c_comment_strings=1
 "highlight Constant gui=NONE guibg=grey95
 "highlight Special gui=NONE guibg=grey95
 
-highlight Cursor guifg=white guibg=black
-highlight iCursor guifg=white guibg=steelblue
-set guicursor=n-v-c:block-Cursor
-set guicursor+=i:ver100-iCursor
-set guicursor+=n-v-c:blinkon0
-set guicursor+=i:blinkwait10
+" guicursor
+"highlight Cursor guifg=white guibg=black
+"highlight iCursor guifg=white guibg=steelblue
+"set guicursor=n-v-c:block-Cursor
+"set guicursor+=i:ver25-iCursor
+"set guicursor+=n-v-c:blinkon1
+"set guicursor+=i:blinkwait10
 
 syntax on 
 
