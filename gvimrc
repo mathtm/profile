@@ -1,5 +1,5 @@
-" An example for a gvimrc file.
-" The commands in this are executed when the GUI is started.
+" Austen's gvimrc
+" Updated on 2014-03-25
 
 colorscheme torte
 
@@ -78,7 +78,6 @@ let c_comment_strings=1
 "highlight NonText guibg=grey80
 "highlight Constant gui=NONE guibg=grey95
 "highlight Special gui=NONE guibg=grey95
-
 
 
 syntax on 
