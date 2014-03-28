@@ -1,0 +1,8 @@
+# Server = http://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/armv7h/$repo
+
+
+# Server = http://de3.mirror.archlinuxarm.org/armv7h/$repo
+
+
+
+Server = http://tw.mirror.archlinuxarm.org/armv7h/$repo
