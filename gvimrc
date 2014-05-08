@@ -64,8 +64,8 @@ call vundle#rc()
 "call vundle#rc(path)
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/vundle'
-Plugin 'godlygeek/tabular'
+Bundle 'gmarik/vundle'
+Bundle 'godlygeek/tabular'
 
 
 filetype plugin indent on
